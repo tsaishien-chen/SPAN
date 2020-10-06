@@ -1,4 +1,5 @@
-![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)
+![Python 3.6](https://img.shields.io/badge/Python-3.6-green.svg)
+![PyTorch 1.6](https://img.shields.io/badge/PyTorch-1.6-blue.svg)
 # Semantics-guided Part Attention Network
 This is the pytorch implementatin of Semantics-guided Part Attention Network **(SPAN)**
 
@@ -35,7 +36,7 @@ $ sed -i 's/==/>=/g' requirements.
 $ pip3 install -r requirements.txt
 ```
 - Download VeRi-776 dataset [[link]](https://github.com/JDAI-CV/VeRidataset) </br>
-*Please note that: Our code is only supported on VeRi-776 dataset*
+*Please note that: Our code is only supported on VeRi-776 dataset currently*
 - Download this repo by:
 ```
 $ git clone https://github.com/tsaishien-chen/SPAN.git
@@ -43,7 +44,7 @@ $ git clone https://github.com/tsaishien-chen/SPAN.git
 ### Train
 To train the model from scratch, please run
 ```
-$ python3 train.py --image_root <Path_to_VeRi776_dataset> -mode train
+$ python3 train.py --image_root <Path_to_VeRi> -mode train
 ```
 For example,
 ```
@@ -60,7 +61,7 @@ The whole training process includes five steps:
 We have given the pretrained model of part attention generator; </br>
 therefore, you can simply generate the part attention mask without training by
 ```
-$ python3 train.py --image_root <Path_to_VeRi776_dataset> -mode implement
+$ python3 train.py --image_root <Path_to_VeRi> -mode implement
 ```
 For example,
 ```
@@ -69,7 +70,7 @@ $ python3 train.py --image_root ../Dataset/VeRi -mode implement
 
 ### Visualize
 After training and implementation process, the code will automatically visualize generated masks as above. </br>
-Or, you can uncomment the `visualize` function in `main.py` and can independently visualize the mask after generated in each step.
+Or, you can uncomment the `visualize` function in `main.py` and can independently visualize the masks after generated in each step.
 
 ## Contact
 [Tsai-Shien Chen](https://tsaishien-chen.github.io/), [Media IC and System Lab](http://media.ee.ntu.edu.tw/), [National Taiwan University](https://www.ntu.edu.tw/english/index.html) </br>
