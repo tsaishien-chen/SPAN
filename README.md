@@ -45,11 +45,11 @@ $ pip3 install -r requirements.txt
 ### Train
 To train the model from scratch, please run
 ```
-$ python3 train.py --image_root <Path_to_VeRi> -mode train
+$ python3 main.py --mode train --image_root <Path_to_VeRi>
 ```
 For example,
 ```
-$ python3 train.py --image_root ../Dataset/VeRi -mode train
+$ python3 main.py --mode train --image_root ../Dataset/VeRi
 ```
 The whole training process includes five steps:
 1. generating the foreground masks by grabcut,
@@ -62,11 +62,11 @@ The whole training process includes five steps:
 We have given the pretrained model of part attention generator; </br>
 therefore, you can simply generate the part attention mask without training by
 ```
-$ python3 train.py --image_root <Path_to_VeRi> -mode implement
+$ python3 main.py --mode implement --image_root <Path_to_VeRi>
 ```
 For example,
 ```
-$ python3 train.py --image_root ../Dataset/VeRi -mode implement
+$ python3 main.py --mode implement --image_root ../Dataset/VeRi
 ```
 
 ### Visualize
