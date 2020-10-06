@@ -30,7 +30,7 @@ We visiualize some examples of vehicle images and their
 ## Get Started
 ### Prerequisites
 - Download VeRi-776 dataset [[link]](https://github.com/JDAI-CV/VeRidataset) </br>
-*Please note that: Our code is only supported on VeRi-776 dataset currently*
+*Please note that: our code is only supported on VeRi-776 dataset currently.*
 - Download this repo by:
 ```
 $ git clone https://github.com/tsaishien-chen/SPAN.git
