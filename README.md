@@ -30,25 +30,25 @@ We visiualize some examples of vehicle images and their
 ### Prerequisites
 - We run the code under Python3.6.9
 - The versions of used python packages are listed in `requirements.txt`. You can install all the dependancies by:
-'''
+```
 $ sed -i 's/==/>=/g' requirements.
 $ pip3 install -r requirements.txt
-'''
+```
 - Download VeRi-776 dataset [[link]](https://github.com/JDAI-CV/VeRidataset) </br>
 *Please note that: Our code is only supported on VeRi-776 dataset*
 - Download this repo by:
-'''
+```
 $ git clone https://github.com/tsaishien-chen/SPAN.git
-'''
+```
 ### Train
 To train the model from scratch, please run
-'''
+```
 $ python3 train.py --image_root <Path_to_VeRi776_dataset> -mode train
-'''
+```
 For example,
-'''
+```
 $ python3 train.py --image_root ../Dataset/VeRi -mode train
-'''
+```
 The whole training include five steps:
 1. generating the foreground mask by Grabcut,
 2. training network to generate more robust foreground mask,
@@ -59,13 +59,13 @@ The whole training include five steps:
 ### Implement
 We have given the pretrained model of part attention generator; </br>
 therefore, your can simply generate the part attention mask without training by
-'''
+```
 $ python3 train.py --image_root <Path_to_VeRi776_dataset> -mode implement
-'''
+```
 For example,
-'''
+```
 $ python3 train.py --image_root ../Dataset/VeRi -mode implement
-'''
+```
 
 ### Visualize
 After training and implementation process, the code will automatically visualize generated masks as above. </br>
