@@ -29,17 +29,18 @@ We visiualize some examples of vehicle images and their
 
 ## Get Started
 ### Prerequisites
-- We run the code under Python 3.6.9
-- The versions of used python packages are listed in `requirements.txt`. You can install all the dependancies by:
-```
-$ sed -i 's/==/>=/g' requirements.
-$ pip3 install -r requirements.txt
-```
 - Download VeRi-776 dataset [[link]](https://github.com/JDAI-CV/VeRidataset) </br>
 *Please note that: Our code is only supported on VeRi-776 dataset currently*
 - Download this repo by:
 ```
 $ git clone https://github.com/tsaishien-chen/SPAN.git
+$ cd SPAN
+```
+- We run the code under Python 3.6.9
+- The versions of used python packages are listed in `requirements.txt`. You can install all the dependancies by:
+```
+$ sed -i 's/==/>=/g' requirements.txt
+$ pip3 install -r requirements.txt
 ```
 ### Train
 To train the model from scratch, please run
