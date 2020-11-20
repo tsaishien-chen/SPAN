@@ -6,7 +6,7 @@ This is the pytorch implementatin of Semantics-guided Part Attention Network **(
 ## Paper
 Orientation-aware Vehicle Re-identification with Semantics-guided Part Attention Network <br/>
 [Tsai-Shien Chen](https://tsaishien-chen.github.io/), [Chih-Ting Liu](https://jackie840129.github.io/), Chih-Wei Wu, and [Shao-Yi Chien](http://www.ee.ntu.edu.tw/profile?id=101) <br/>
-European Conference on Computer Vision (**ECCV**), 2020 <br/>
+European Conference on Computer Vision (**ECCV**), **Oral**, 2020 <br/>
 [[Paper Website]](http://media.ee.ntu.edu.tw/research/SPAN/) [[arXiv]](https://arxiv.org/abs/2008.11423)
 
 ### Citation
