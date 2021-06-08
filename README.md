@@ -12,11 +12,13 @@ European Conference on Computer Vision (**ECCV**), **Oral**, 2020 <br/>
 ### Citation
 If you use SPAN, please cite this paper:
 ```
-@article{SPAN,
-  	title   = {Orientation-aware Vehicle Re-identification with Semantics-guided Part Attention Network},
-  	author  = {Chen, Tsai-Shien and Liu, Chih-Ting and Wu, Chih-Wei and Chien, Shao-Yi},
-  	journal = {arXiv preprint arXiv:2008.11423},
-  	year    = {2020}
+@inproceedings{SPAN,
+    title        = {Orientation-aware Vehicle Re-identification with Semantics-guided Part Attention Network},
+    author       = {Chen, Tsai-Shien and Liu, Chih-Ting and Wu, Chih-Wei and Chien, Shao-Yi},
+    booktitle    = {European Conference on Computer Vision},
+    pages        = {330--346},
+    year         = {2020},
+    organization = {Springer}
 }
 ```
 
